@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/layoutContent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></FrameLayout>
+
+
+    <View
+        android:id="@+id/viewLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="58dp"
+        android:layout_width="match_parent"
+        android:background="@color/text_color_dark"
+        android:layout_height="1dp"/>
+
+
+   <LinearLayout
+       app:layout_constraintBottom_toBottomOf="parent"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="55dp">
+
+       <LinearLayout
+           android:id="@+id/llHomeEat"
+           style="@style/home_ll_bottom">
+           <ImageView
+               android:id="@+id/ivHomeEat"
+               android:src="@drawable/selector_home_eat"
+               style="@style/home_iv_bottom"/>
+
+           <TextView
+               android:id="@+id/tvHomeEat"
+               android:text="吃"
+               style="@style/home_tv_bottom"
+               />
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/llHomeDrink"
+           style="@style/home_ll_bottom"
+           >
+           <ImageView
+               android:id="@+id/ivHomeDrink"
+               android:src="@drawable/selector_home_drink"
+               style="@style/home_iv_bottom"/>
+
+           <TextView
+               android:text="喝"
+               android:id="@+id/tvHomeDrink"
+               style="@style/home_tv_bottom"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/llHomePlay"
+           style="@style/home_ll_bottom">
+           <ImageView
+               android:id="@+id/ivHomePlay"
+               android:src="@drawable/selector_home_play"
+               style="@style/home_iv_bottom"/>
+
+           <TextView
+               android:text="玩"
+               android:id="@+id/tvHomePlay"
+               style="@style/home_tv_bottom"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/llHomeEnjoy"
+           style="@style/home_ll_bottom">
+           <ImageView
+               android:id="@+id/ivHomeEnjoy"
+               android:src="@drawable/selector_home_enjoy"
+               style="@style/home_iv_bottom"/>
+
+           <TextView
+               android:text="乐"
+               android:id="@+id/tvHomeEnjoy"
+               style="@style/home_tv_bottom"/>
+
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

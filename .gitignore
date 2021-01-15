@@ -1,0 +1,61 @@
+# OSX
+
+*.DS_Store
+
+*.hprof
+# Gradle files
+build/
+.gradle/
+*/build/
+
+# Android Studio captures folder
+captures/
+
+# IDEA
+*.iml
+.idea/.name
+.idea/encodings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries
+.idea/
+# Built application files
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+
+# Java class files
+*.class
+
+
+# Generated files
+antLauncher/bin
+antLauncher/gen
+
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+# Log Files
+*.log
+.idea/inspectionProfiles/
+app/mappings/mapping-haixuetestRelease.txt
+import-summary.txt
+mappings/
+app/mappings/
+DoubleArcLoadingLib/libs/
+DoubleArcLoadingLib/src/main/res/drawable/
+app/src/res_yishi/res/drawable/
+app/src/res_yixiao/res/drawable/
+/app/Users
+src/main/java/com/haixue/yijian/studyclass/event/
+src/main/res/values-v23/
